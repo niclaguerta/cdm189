@@ -1,0 +1,84 @@
+body {
+	background-image: url(images/background.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	padding-top: 671px;
+    background-size: contain;
+    padding-top: 41.9%;
+}
+
+section {
+	background: #fff;
+	padding: 30px;
+}
+
+article {
+	margin: auto;
+	width: 75%;
+	font-family: Arial;
+	font-size: 24px;
+	color: #000;
+	line-height: 1.5em;
+	background-color: #fff;
+	
+	/* Needed to position the header
+	relative to this parent element */
+	position: relative;
+}
+
+header {
+	/* Changes the postioning of this element */
+	position: absolute;
+	
+	/* Moves the element up on top of the image */
+	top: -300px;
+	left: 0;
+	
+	/* Need to set the width, otherwise the element
+	shrink wraps around the content */
+	width: 100%;
+	
+	/* Needed to include the padding as part of
+	the width of the element */
+	box-sizing: border-box;
+}
+
+header h1, header h2 {
+	color: #000;
+	margin: 0;
+	padding: 0;
+	font-family: "Anton", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+	  
+
+
+header h1 {
+    text-align: left;
+	margin: 1em 0;
+}
+
+header h2 {
+	text-align: left;
+	margin: 1em 0;
+}
+
+div p {
+	color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content {
+	margin: auto;
+}
+
+footer {
+	background: rgb(255,115,176);
+	background: radial-gradient(circle, rgba(255,115,176,1) 0%, rgba(255,180,136,1) 50%, rgba(100,171,255,1) 100%);
+	padding: 20px 0;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	color:#000;
+}
