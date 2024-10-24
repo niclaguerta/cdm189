@@ -1,4 +1,4 @@
-/* CSS Resets */
+CSS Resets
 * {
     box-sizing: border-box;
 }
@@ -26,11 +26,11 @@ body {
     transition: all 2s;
 }
 
-/* body.switch {
+body.switch {
     background: url(images/night.png);
     animation: scrollRight 50s linear infinite;
     transition: all 2s;
-} */
+}
 
 #container {
     position: relative;
@@ -46,7 +46,7 @@ header {
     margin: 0 auto 2em auto;
 }
 
-#quote {
+/* #quote {
     text-shadow: #fbfdf2 1px 0 10px;
     color: #000;
     font-size: 1.1em;
@@ -56,19 +56,19 @@ header {
     text-shadow: #000 1px 0 10px;
     color: #fff;
     font-size: 1.1em;
-}
+} */
 
-#chonk img {
+/* #chonk img {
     margin: auto;
     animation: scale 2s linear infinite;
     transition: all 2s;
-}
+} */
 
 /* body.switch #chonk img {
     animation: scale 2s linear infinite;
 } */
 
-@keyframes scale {
+/* @keyframes scale {
     0%, 100% { transform: scale(1); }
     50% { transform: scale(1.1); }
 }
@@ -80,7 +80,7 @@ header {
     50% {
         transform: rotate(3deg);
     }
-}
+} */
 
 #banner {
     width: 1100px;
