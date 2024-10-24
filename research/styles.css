@@ -76,6 +76,14 @@ div p {
 	margin: auto;
 }
 
+.content > p {
+    margin-bottom: 50px; /* Adjust as needed */
+}
+
+div h3 {
+	font-size: 1em;
+}
+
 footer {
 	/* background: rgb(255,115,176);
 	background: radial-gradient(circle, rgba(255,115,176,1) 0%, rgba(255,180,136,1) 50%, rgba(100,171,255,1) 100%); */
