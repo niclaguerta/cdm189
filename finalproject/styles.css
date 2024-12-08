@@ -24,8 +24,6 @@ h1, h2, p {
 }
 
 .s1 {
-    background: url(images/section1.png);
-    background-size: cover;
 
     h1 {
         color: white;
@@ -64,6 +62,16 @@ h1, h2, p {
 }
 
 .s3 {
+    background: url(images/estate.png);
+    background-size: cover;
+
+    h1 {
+        color: white;
+        text-align: start;
+    } 
+}
+
+.s4 {
     background: url(images/matchbook.png);
     background-size: cover;
 
@@ -72,8 +80,8 @@ h1, h2, p {
     }
 }
 
-.s4 {
-    background: url(images/section4.png);
+.s5 {
+    background: url(images/winemaking.png);
     background-size: cover;
 
     h1 {
@@ -81,8 +89,17 @@ h1, h2, p {
     }
 }
 
-.s5 {
-    background: url(images/section5.png);
+.s6 {
+    background: url(images/ovals.png);
+    background-size: cover;
+
+    h1 {
+        color: white;
+    }
+}
+
+.s7 {
+    background: url(images/sheep.png);
     background-size: cover;
 
     h1 {
