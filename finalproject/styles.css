@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img { 
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.s1 {
+    background: url(images/section1.png);
+    background-size: cover;
+
+    h1 {
+        color: white;
+    }
+}
+
+.s2 {
+    background: url(images/section2.png);
+    background-size: cover;
+
+    h1 {
+        color: white;
+    }
+}
+
+.s3 {
+    background: url(images/section3.png);
+    background-size: cover;
+
+    h1 {
+        color: white;
+    }
+}
+
+.s4 {
+    background: url(images/section4.png);
+    background-size: cover;
+
+    h1 {
+        color: white;
+    }
+}
+
+.s5 {
+    background: url(images/section5.png);
+    background-size: cover;
+
+    h1 {
+        color: white;
+    }
+}

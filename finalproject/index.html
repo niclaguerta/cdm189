@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDM 189 Final</title>
+   
+    <!-- fullpage.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.31/fullpage.min.css" 
+          integrity="sha512-6C+r1OJlC3qBPXIO1VNXP4c9KUSnF4BTBZXiPL8/oB5VqIYl76jlaH57ZJPBoaPENhcrvOZpEQKDVxSVzi3/1Q==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- aos.js -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="fullPage">
+        <div class="section s1">
+            <h1>First Section</h1>
+        </div>
+        <div class="section s2">
+            <h1>Second Section</h1>
+        </div>
+        <div class="section s3">
+            <h1>Third Section</h1>
+        </div>
+        <div class="section s4">
+            <h1>Fourth Section</h1>
+        </div>
+        <div class="section s5">
+            <h1>Fifth Section</h1>
+        </div>
+    </div>
+
+    <!-- fullpage.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.31/fullpage.min.js" 
+            integrity="sha512-x5JY7KTULoGmcgxguKf5p4i3wfx7qXlY3OMjqez4Pj8BPoMn4krRQmwDtOwF81F+/9Be+jvhBsKOIaPPZmRelQ==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- aos.js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        // Initialize fullpage.js
+        new fullpage('#fullPage', {
+            autoScrolling: true
+        });
+
+        // Initialize aos.js
+        AOS.init();
+    </script>
+</body>
+
+</html>
