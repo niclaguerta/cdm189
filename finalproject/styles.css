@@ -11,9 +11,16 @@ img {
     margin: auto;
 }
 
-h1, h2 {
+h1, h2, p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+}
+
+#myVideo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .s1 {
@@ -22,33 +29,42 @@ h1, h2 {
 
     h1 {
         color: white;
+        text-align: center;
         font-size: 4em;
+        padding: 70px 20px 0px 20px;
+        text-shadow: 2px 2px 4px #000000;
     }
 
     h2 {
         color: white;
+        text-align: center;
         font-size: 2em;
+        padding: 10px 20px 20px 20px;
+        text-shadow: 2px 2px 4px #000000;
     }
 
     p {
         color: white;
         text-align: center;
-        padding-top: 250px;
+        text-align: center;
+        padding-top: 300px;
+        font-size: 1.25em;
     }
 }
 
 .s2 {
-    background: url(images/section2.png);
+    background: url(images/vineyard.png);
     background-size: cover;
 
     h1 {
         color: white;
+        text-align: start;
     }
 
 }
 
 .s3 {
-    background: url(images/section3.png);
+    background: url(images/matchbook.png);
     background-size: cover;
 
     h1 {
