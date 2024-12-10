@@ -56,9 +56,50 @@ h1, h2, p {
 
     h1 {
         color: white;
-        text-align: start;
+        text-align: left;
+        margin-bottom: 20px;
+        margin-left: 75px;
+        padding: 25px;
+        font-size: 4.5em;
+        -webkit-text-stroke: 3px #111;
+        text-shadow: 2px 2px 4px #000000;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
+    p {
+        color: #000;
+        text-align: left;
+        line-height: 2em;
+        font-size: 1.25em;
+        padding: 30px;
+        background-color: rgba(246, 232, 215, 1);
+        border: 5px ridge #000;
+        border-radius: 10px;
+        margin: 20px 20px 20px 100px;
+    }
+}
 
+#s2main {
+    display: flex; /* Enables flexbox layout */
+    gap: 0;
+}
+
+#s2main div {
+    flex: 3;
+}
+
+#s2main img {
+    flex: 1;
+    padding-right: 100px;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0); /* Default position */
+    }
+    50% {
+        transform: translateY(-10px); /* Move up slightly */
+    }
 }
 
 .s3 {
@@ -67,8 +108,40 @@ h1, h2, p {
 
     h1 {
         color: white;
-        text-align: start;
-    } 
+        text-align: right;
+        margin-bottom: 20px;
+        margin-right: 75px;
+        padding: 25px;
+        font-size: 4.5em;
+        -webkit-text-stroke: 3px #111;
+        text-shadow: 2px 2px 4px #000000;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    p {
+        color: #fff;
+        text-align: left;
+        line-height: 2em;
+        font-size: 1.25em;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px ridge #000;
+        border-radius: 10px;
+        margin: 20px 100px 20px 100px;
+    }
+}
+
+#s3main {
+    display: flex; /* Enables flexbox layout */
+    gap: 0;
+}
+
+#s3main div {
+    flex: 3;
+}
+
+#s3main img {
+    flex: 1;
+    padding-left: 100px;
 }
 
 .s4 {
