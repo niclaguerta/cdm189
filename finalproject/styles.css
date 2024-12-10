@@ -23,64 +23,62 @@ h1, h2, p {
     min-height: 100%;
 }
 
-.s1 {
-
-    h1 {
-        color: white;
-        text-align: center;
-        font-size: 4em;
-        padding: 70px 20px 0px 20px;
-        text-shadow: 2px 2px 4px #000000;
-    }
-
-    h2 {
-        color: white;
-        text-align: center;
-        font-size: 2em;
-        padding: 10px 20px 20px 20px;
-        text-shadow: 2px 2px 4px #000000;
-    }
-
-    p {
-        color: white;
-        text-align: center;
-        text-align: center;
-        padding-top: 300px;
-        font-size: 1.25em;
-    }
+/* Section 1 */
+.s1 h1 {
+    color: white;
+    text-align: center;
+    font-size: 6em;
+    padding: 70px 20px 0px 20px;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.s2 {
-    background: url(images/vineyard.png);
-    background-size: cover;
+.s1 h2 {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    padding: 10px 30px 20px 30px;
+    text-shadow: 2px 2px 4px #000000;
+}
 
-    h1 {
-        color: white;
-        text-align: left;
-        margin-bottom: 20px;
-        margin-left: 75px;
-        padding: 25px;
-        font-size: 4.5em;
-        -webkit-text-stroke: 3px #111;
-        text-shadow: 2px 2px 4px #000000;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    p {
-        color: #000;
-        text-align: left;
-        line-height: 2em;
-        font-size: 1.25em;
-        padding: 30px;
-        background-color: rgba(246, 232, 215, 1);
-        border: 5px ridge #000;
-        border-radius: 10px;
-        margin: 20px 20px 20px 100px;
-    }
+.s1 p {
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+    font-size: 1.5em;
+}
+
+/* Section 2 */
+.s2 {
+    background: url(images/grapes.png);
+    background-size: cover;
+}
+
+.s2 h1 {
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 75px;
+    padding: 25px;
+    font-size: 4.5em;
+    -webkit-text-stroke: 3px #111;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.s2 p {
+    color: #fff;
+    text-align: left;
+    line-height: 2em;
+    font-size: 1.25em;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 20px 20px 20px 100px;
 }
 
 #s2main {
-    display: flex; /* Enables flexbox layout */
-    gap: 0;
+    display: flex;
+    gap: 10px;
 }
 
 #s2main div {
@@ -93,46 +91,47 @@ h1, h2, p {
     animation: bounce 2s ease-in-out infinite;
 }
 
+/* Keyframes */
 @keyframes bounce {
     0%, 100% {
-        transform: translateY(0); /* Default position */
+        transform: translateY(0);
     }
     50% {
-        transform: translateY(-10px); /* Move up slightly */
+        transform: translateY(-10px);
     }
 }
 
+/* Section 3 */
 .s3 {
     background: url(images/estate.png);
     background-size: cover;
+}
 
-    h1 {
-        color: white;
-        text-align: right;
-        margin-bottom: 20px;
-        margin-right: 75px;
-        padding: 25px;
-        font-size: 4.5em;
-        -webkit-text-stroke: 3px #111;
-        text-shadow: 2px 2px 4px #000000;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    p {
-        color: #fff;
-        text-align: left;
-        line-height: 2em;
-        font-size: 1.25em;
-        padding: 30px;
-        background-color: rgba(0, 0, 0, 0.7);
-        border: 5px ridge #000;
-        border-radius: 10px;
-        margin: 20px 100px 20px 100px;
-    }
+.s3 h1 {
+    color: white;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: 75px;
+    padding: 25px;
+    font-size: 4.5em;
+    -webkit-text-stroke: 3px #111;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.s3 p {
+    color: #fff;
+    text-align: left;
+    line-height: 2em;
+    font-size: 1.25em;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 20px 100px 20px 20px;
 }
 
 #s3main {
-    display: flex; /* Enables flexbox layout */
-    gap: 0;
+    display: flex;
+    gap: 10px;
 }
 
 #s3main div {
@@ -142,40 +141,107 @@ h1, h2, p {
 #s3main img {
     flex: 1;
     padding-left: 100px;
+    animation: bounce 3s ease-in-out infinite;
 }
 
+/* Section 4 */
 .s4 {
     background: url(images/matchbook.png);
     background-size: cover;
-
-    h1 {
-        color: white;
-    }
 }
 
+.s4 h1 {
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 75px;
+    padding: 25px;
+    font-size: 4.5em;
+    -webkit-text-stroke: 3px #111;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.s4 p {
+    color: #fff;
+    text-align: left;
+    line-height: 2em;
+    font-size: 1.5em;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 20px 20px 20px 100px;
+}
+
+#s4main {
+    display: flex;
+    gap: 10px;
+}
+
+#s4main div {
+    flex: 3;
+}
+
+#s4main img {
+    flex: 1;
+    padding-right: 100px;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+/* Section 5 */
 .s5 {
-    background: url(images/winemaking.png);
+    background: url(images/sheep.png);
     background-size: cover;
-
-    h1 {
-        color: white;
-    }
 }
 
+.s5 h1 {
+    color: white;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: 75px;
+    padding: 25px;
+    font-size: 4.5em;
+    -webkit-text-stroke: 3px #111;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.s5 p {
+    color: #fff;
+    text-align: left;
+    line-height: 2em;
+    font-size: 1.4em;
+    padding: 30px 40px;
+}
+
+#s5background {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#s5main {
+    display: flex;
+    gap: 10px;
+}
+
+#s5main div {
+    flex: 1;
+}
+
+/* Section 6 */
 .s6 {
     background: url(images/ovals.png);
     background-size: cover;
-
-    h1 {
-        color: white;
-    }
 }
 
+.s6 h1 {
+    color: white;
+}
+
+/* Section 7 */
 .s7 {
     background: url(images/sheep.png);
     background-size: cover;
+}
 
-    h1 {
-        color: white;
-    }
+.s7 h1 {
+    color: white;
 }

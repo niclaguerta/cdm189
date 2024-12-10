@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CDM 189 Final</title>
-   
+
     <!-- fullpage.js -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.31/fullpage.min.css" 
           integrity="sha512-6C+r1OJlC3qBPXIO1VNXP4c9KUSnF4BTBZXiPL8/oB5VqIYl76jlaH57ZJPBoaPENhcrvOZpEQKDVxSVzi3/1Q==" 
@@ -16,17 +16,17 @@
     <!-- Custom stylesheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <div id="fullPage">
 
+        <!-- Background Video -->
         <video id="myVideo" poster="images/thumbnail.png" loop autoplay muted playsinline>
             <source src="media/video.webm" type="video/webm">
             <source src="media/video.mp4" type="video/mp4">
-    
-            <p>Your browser doesn't support HTML5 video. Here is a <a href="media/video.mp4">link to the video</a> instead</p>
+            <p>Your browser doesn't support HTML5 video. Here is a <a href="media/video.mp4">link to the video</a> instead.</p>
         </video>
 
+        <!-- Section 1 -->
         <div class="section s1" data-aos="fade-down">
             <nav id="mainnav">
                 <ul>
@@ -34,12 +34,13 @@
                     <li><a href="#">Bibliography</a></li>
                     <li><a href="#">Journal</a></li>
                 </ul>
+            </nav>
             <h1 data-aos="fade-down" data-aos-duration="2000">The Business of Green</h1>
             <h2 data-aos="fade-down" data-aos-duration="2000">Matchbook Winery's Environmental and Economic Sustainability</h2>
-
             <p data-aos="fade-down" data-aos-delay="1500" data-aos-duration="2000">(scroll to continue)</p>
         </div>
 
+        <!-- Section 2 -->
         <div class="section s2">
             <h1>The Green Commitment of Matchbook</h1>
             <div id="s2main">
@@ -51,10 +52,11 @@
             </div>
         </div>
 
+        <!-- Section 3 -->
         <div class="section s3">
-            <h1>Dunnigan Hills of Zamora, California</h1>
+            <h1>East of Napa, Left of Center</h1>
             <div id="s3main">
-                <img src="images/map.png" alt="map of california" width="400">
+                <img src="images/map.png" alt="map of california" width="600">
                 <div>
                     <p>Matchbook’s vineyards are located in the Dunnigan Hills, a region with soil and climate conditions ideal for growing high-quality wine grapes. The Corning Red Gravel Loam soil, known for its excellent drainage and biology, supports sustainable farming practices. Additionally, the Mediterranean climate and cooling delta breezes help preserve grape acidity and flavor.</p>
                     <p>These natural advantages demonstrate how sustainability can work alongside environmental factors to enhance wine quality. Matchbook’s focus on these characteristics aligns with broader global efforts, such as New Zealand’s Sustainable Winegrowing program, which similarly leverages regional attributes to create premium wines.</p>
@@ -62,26 +64,45 @@
             </div>
         </div>
 
+        <!-- Section 4 -->
         <div class="section s4">
-            <h1>Estate Vineyards</h1>
-        </div>
-
-        <div class="section s5">
             <h1>Family Owned and Operated</h1>
-
-            <p>Fifth-generation farmers John and Karl Giguiere founded Matchbook Winery in 2005, drawing on a long family history in Yolo County agriculture. The name “Matchbook” comes from John’s childhood fascination with fire—an interest that led to a few literal sparks and inspired the winery's branding.</p>
+            <div id="s4main">
+                <div>
+                    <p>Fifth-generation farmers John and Karl Giguiere founded Matchbook Winery in 2005, drawing on a long family history in Yolo County agriculture. The name “Matchbook” comes from John’s childhood fascination with fire—an interest that led to a few literal sparks and inspired the winery's branding.</p>
+                    <p>As a family-owned business, Matchbook is committed to preserving the land for future generations. This approach is reflected in their efforts to balance agricultural productivity with environmental stewardship, ensuring that the winery’s operations remain viable and sustainable.</p>
+                </div>
+                <img src="images/family.png" alt="matchbook family" height="400" width="400">
+            </div>
         </div>
 
+        <!-- Section 5 -->
+        <div class="section s5">
+            <h1>Sustainability in the Vineyards</h1>
+            <div id="s5background">
+                <p>Matchbook Winery incorporates a range of practices in their vineyard operations to enhance soil health, conserve resources, and promote biodiversity.</p>
+                <div id="s5main">
+                    <div>
+                        <p><strong>Sheep Grazing:</strong><br>Sheep graze across all of Matchbook’s estate vineyards in both fall and spring. This practice not only controls vegetation but also enriches the soil with carbon through sheep manure, which is crucial for building organic matter. This organic matter forms the foundation of Matchbook’s organic and regenerative farming program, reducing the need for synthetic fertilizers while fostering healthier soils.</p>
+                    </div>
+                    <div>
+                        <p><strong>Cover Crops:</strong><br>Cover crops provide shade, reducing summer temperatures and evaporation from bare soils, which helps conserve water. Additionally, cover crops attract arthropods and beneficial insects that break down plant material into organic matter, creating biological pest controls and further reducing reliance on synthetic inputs.</p>
+                    </div>
+                    <div>
+                        <p><strong>Compost Tea:</strong><br>To support their soil health initiatives, Matchbook applies an organic compost tea to their vineyards each fall. This mixture includes humic acid chips, organic mined gypsum, chicken manure, and locally sourced almond shells. Together, these components increase organic matter, improve soil structure, and enhance photosynthesis—the process that fuels healthy vine growth and high-quality grape production.</p>
+                    </div>
+                </div>
+            </div>            
+        </div>
+
+        <!-- Section 6 -->
         <div class="section s6">
-            <h1>Innovative Winemaking</h1>
+            <h1>Sustainability in Energy Use</h1>
         </div>
 
+        <!-- Section 7 -->
         <div class="section s7">
-            <h1>Programs</h1>
-        </div>
-
-        <div class="section s8">
-            <h1>Certified Green</h1>
+            <h1>The Role of Certification</h1>
         </div>
 
     </div>
@@ -104,5 +125,4 @@
         AOS.init();
     </script>
 </body>
-
 </html>
